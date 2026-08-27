@@ -13,4 +13,4 @@ def register():
     return render_template("sucess.html",name=name,email=email,year=year)
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=5000,debug=True)
